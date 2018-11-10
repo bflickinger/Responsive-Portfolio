@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    background-image: url("../images/vintage-concrete.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerFullBox {
+    margin: auto;
+    border-color: #cccccc;
+    border-style: solid;
+    background-color: #ffffff;
+    border-width: 0px 0px 2px 0px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 90px;  
+}
+.headerCenterBox {
+    margin: auto;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    width: 960px;
+    height: 90px;
+}
+.nameBox {
+    float: left;
+    text-emphasis: bold;
+    color:#ffffff;
+    background-color: #4aaaa5;
+    height: 45px;
+    width: 300px;   
+}
+
+.nameBox h1 {
+    margin: auto;
+    text-align: center;
+    padding: 30px 0px 15px 0px;
+ }
+
+.navBox {
+    float: right;
+    margin: 36px 0px 10px 0px;
+}
+
+a {
+    display: block;
+    padding 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li.borderright {
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #dddddd;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.mainBox {
+    background-color: #ffffff;
+    margin: auto;
+    width: 910px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 25px;
+    border-color: #dddddd;
+    margin-bottom: 75px;
+}
+.headingBox {
+}
+
+.headingBox h1 {
+    color: #4aaaa5;
+    margin: 0px 0px 20px 0px;
+}
+.seperator {
+    border-style: solid;
+    border-width: 1px;
+    width: 900;
+    border-color: #dddddd;    
+    margin-bottom: 30px;
+}
+
+.aboutmePic {
+    float: left;
+}
+
+#aboutPic {
+    float: left;
+    object-fit: cover;
+    height: 150px;
+    width: 200px;
+    padding: 0px 20px 0px 0px;
+   }
+
+.aboutmeText {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #777777;
+}
+
+.footerBox {
+    color: #ffffff;
+    background-color: #666666;
+    text-align: center;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+}
+
+.footerP {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    font-size: 12px;
+    width: 100%;
+    bottom: 0px;
+    margin-bottom: 5px;
+    color: #acbac3;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px; 
+    border: 1px solid #ccc;  
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #777777;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+div.r-1-c-1 {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.sportsText {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+div.r-1-c-2 {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.natureText {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+div.r-2-c-1 {
+    clear: both;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.foodText {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+div.r-2-c-2 {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.nightLifeText {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+div.r-3-c-1 {
+    clear: both;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.technicsText {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width: 980px) {
+
+    .headerCenterBox {
+        width: auto;
+    }
+
+    .mainBox {
+        width: auto;
+        margin-left:5%;
+        width: 70%;
+    }
+
+    .nameBox {
+        margin-left: 5%;
+    }
+
+    .navBox {
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .headerCenterBox {
+        width: auto;
+    }
+
+    .mainBox {
+        margin-left:5%;
+        margin-right:5%;
+        width: auto;
+    }
+
+    .nameBox {
+        margin-left: 5%;
+    }
+
+    .navBox {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    .header {
+        margin: 0px;
+    }
+    
+    .headerbox {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .mainBox {
+        margin-left:5%;
+        margin-right:5%;
+        width: auto;
+    }
+ 
+    .navBox {
+        /* if I had know I had to do this, I wouldn't have put both the namebox and the navbox in a div. So, I'd have to redo that to make this work as asked */
+        text-align: center;
+        width: 100%;
+        padding: 0%;
+    }
+}
